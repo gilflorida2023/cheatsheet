@@ -11,4 +11,13 @@
 	./configure --disable-debug CFLAGS="-O2"
 	make
 
+ ## gnu build
+ ### setup make
+ 	autoheader
+  	autoconf
+   	automake
+    	automake --add-missing
+     	./configure
+      	make
+
 
