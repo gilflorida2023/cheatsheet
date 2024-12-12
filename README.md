@@ -7,14 +7,6 @@
  	git tag -d v1.0.0
 	git push --delete origin v1.0.0
 
-## compile with configure
-### debug options 
-	./configure --enable-debug
-	make
-### release options
-	./configure --disable-debug CFLAGS="-O2"
-	make
-
  ## gnu build
  ### setup make
 	autoheader
@@ -23,5 +15,12 @@
 	automake --add-missing
 	./configure
 	make
+ ### debug options 
+	./configure --enable-debug
+	make
+### release options
+	./configure --disable-debug CFLAGS="-O2"
+	make
+
 
 
