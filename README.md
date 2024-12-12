@@ -13,11 +13,11 @@
 
  ## gnu build
  ### setup make
- 	autoheader
-  	autoconf
-   	automake
-    	automake --add-missing
-     	./configure
-      	make
+	autoheader
+	autoconf
+	automake
+	automake --add-missing
+	./configure
+	make
 
 
