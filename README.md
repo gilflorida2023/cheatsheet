@@ -6,7 +6,7 @@
 ## compile with configure
 ### debug options 
   ./configure --enable-debug  # For debug build
-  make
+    make
 ### release options
   ./configure --disable-debug CFLAGS="-O2"  # For release build
   make
