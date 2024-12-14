@@ -1,10 +1,7 @@
 # cheatsheet
 ## clipboard
 ### copy file to clipboard
-	xclip -selection clipboard < /path/to/file  # or simply the file path as text
-
-	xsel --input --clipboard < /path/to/file    # for copying just the path, not content
-
+	xclip -selection clipboard < /path/to/file  
 ## git
 ### add git tag and version label
 	git tag -a v1.0.0 -m "Version 1.0.0 - Initial release"
