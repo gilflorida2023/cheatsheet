@@ -24,6 +24,14 @@
 ### release options
 	./configure --disable-debug CFLAGS="-O2"
 	make
+ # ssh
+ ### ssh tunnel for remmina
+	ssh -L 5901:localhost:5900 username@ssh_server
+
+### example ssh tunnel for remmina
+	ssh -L 5901:localhost:5900 scout@192.168.0.13
+
+
 
 
 
