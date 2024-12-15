@@ -28,6 +28,12 @@
  ### ssh tunnel for remmina
 	ssh -L 5901:localhost:5900 remote_username@remote_ssh_server
 
+ # swap
+ ### stop swap
+	sudo swapoff -a
+### Turn swap on
+	sudo swapon -a
+
 
 
 
