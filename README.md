@@ -24,6 +24,11 @@
 ### release options
 	./configure --disable-debug CFLAGS="-O2"
 	make
+## cmake build
+	mkdir build
+	cd build
+	cmake .. -DCMAKE_BUILD_TYPE=Debug
+	make
  # ssh
  ### ssh tunnel for remmina
 	ssh -L 5901:localhost:5900 remote_username@remote_ssh_server
